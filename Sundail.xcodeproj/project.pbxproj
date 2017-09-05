@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4935A20C1D99C46300441700 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4935A20B1D99C46300441700 /* AppDelegate.swift */; };
+		4935A20E1D99C46300441700 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4935A20D1D99C46300441700 /* ViewController.swift */; };
+		4935A2111D99C46300441700 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4935A20F1D99C46300441700 /* Main.storyboard */; };
+		4935A2131D99C46300441700 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4935A2121D99C46300441700 /* Assets.xcassets */; };
+		4935A2161D99C46300441700 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4935A2141D99C46300441700 /* LaunchScreen.storyboard */; };
+		495F0BA91D9EEBCB00734BE3 /* sky1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 495F0BA81D9EEBCB00734BE3 /* sky1.jpg */; };
+		495F0BAB1D9EEBD300734BE3 /* sky2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 495F0BAA1D9EEBD300734BE3 /* sky2.jpg */; };
+		49BE24A61DA0E965006B4EED /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49BE24A51DA0E965006B4EED /* MapKit.framework */; };
+		49BE24A81DA19C95006B4EED /* Media6.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49BE24A71DA19C95006B4EED /* Media6.xcassets */; };
+		49E523E91D9C7614006F0A75 /* bookmarks2.png in Resources */ = {isa = PBXBuildFile; fileRef = 49E523E81D9C7614006F0A75 /* bookmarks2.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4935A2081D99C46300441700 /* Sundail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sundail.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4935A20B1D99C46300441700 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4935A20D1D99C46300441700 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4935A2101D99C46300441700 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4935A2121D99C46300441700 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4935A2151D99C46300441700 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4935A2171D99C46300441700 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		495F0BA81D9EEBCB00734BE3 /* sky1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sky1.jpg; sourceTree = "<group>"; };
+		495F0BAA1D9EEBD300734BE3 /* sky2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sky2.jpg; sourceTree = "<group>"; };
+		49BE24A51DA0E965006B4EED /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		49BE24A71DA19C95006B4EED /* Media6.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Media6.xcassets; path = ../../../../Documents/Media6.xcassets; sourceTree = "<group>"; };
+		49E523E81D9C7614006F0A75 /* bookmarks2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bookmarks2.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4935A2051D99C46300441700 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49BE24A61DA0E965006B4EED /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4935A1FF1D99C46300441700 = {
+			isa = PBXGroup;
+			children = (
+				49BE24A51DA0E965006B4EED /* MapKit.framework */,
+				4935A20A1D99C46300441700 /* Sundail */,
+				4935A2091D99C46300441700 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4935A2091D99C46300441700 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4935A2081D99C46300441700 /* Sundail.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4935A20A1D99C46300441700 /* Sundail */ = {
+			isa = PBXGroup;
+			children = (
+				4935A20B1D99C46300441700 /* AppDelegate.swift */,
+				4935A20D1D99C46300441700 /* ViewController.swift */,
+				4935A20F1D99C46300441700 /* Main.storyboard */,
+				49E523E81D9C7614006F0A75 /* bookmarks2.png */,
+				4935A2121D99C46300441700 /* Assets.xcassets */,
+				495F0BA81D9EEBCB00734BE3 /* sky1.jpg */,
+				4935A2141D99C46300441700 /* LaunchScreen.storyboard */,
+				4935A2171D99C46300441700 /* Info.plist */,
+				495F0BAA1D9EEBD300734BE3 /* sky2.jpg */,
+				49BE24A71DA19C95006B4EED /* Media6.xcassets */,
+			);
+			path = Sundail;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4935A2071D99C46300441700 /* Sundail */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4935A21A1D99C46300441700 /* Build configuration list for PBXNativeTarget "Sundail" */;
+			buildPhases = (
+				4935A2041D99C46300441700 /* Sources */,
+				4935A2051D99C46300441700 /* Frameworks */,
+				4935A2061D99C46300441700 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sundail;
+			productName = Sundail;
+			productReference = 4935A2081D99C46300441700 /* Sundail.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4935A2001D99C46300441700 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Ikhub;
+				TargetAttributes = {
+					4935A2071D99C46300441700 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = TKZ7E5XD36;
+						LastSwiftMigration = 0800;
+					};
+				};
+			};
+			buildConfigurationList = 4935A2031D99C46300441700 /* Build configuration list for PBXProject "Sundail" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4935A1FF1D99C46300441700;
+			productRefGroup = 4935A2091D99C46300441700 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4935A2071D99C46300441700 /* Sundail */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4935A2061D99C46300441700 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49E523E91D9C7614006F0A75 /* bookmarks2.png in Resources */,
+				495F0BA91D9EEBCB00734BE3 /* sky1.jpg in Resources */,
+				4935A2161D99C46300441700 /* LaunchScreen.storyboard in Resources */,
+				4935A2131D99C46300441700 /* Assets.xcassets in Resources */,
+				495F0BAB1D9EEBD300734BE3 /* sky2.jpg in Resources */,
+				49BE24A81DA19C95006B4EED /* Media6.xcassets in Resources */,
+				4935A2111D99C46300441700 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4935A2041D99C46300441700 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4935A20E1D99C46300441700 /* ViewController.swift in Sources */,
+				4935A20C1D99C46300441700 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4935A20F1D99C46300441700 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4935A2101D99C46300441700 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4935A2141D99C46300441700 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4935A2151D99C46300441700 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4935A2181D99C46300441700 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4935A2191D99C46300441700 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4935A21B1D99C46300441700 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Sundail/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ik.Sundail;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4935A21C1D99C46300441700 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Sundail/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ik.Sundail;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4935A2031D99C46300441700 /* Build configuration list for PBXProject "Sundail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4935A2181D99C46300441700 /* Debug */,
+				4935A2191D99C46300441700 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4935A21A1D99C46300441700 /* Build configuration list for PBXNativeTarget "Sundail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4935A21B1D99C46300441700 /* Debug */,
+				4935A21C1D99C46300441700 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4935A2001D99C46300441700 /* Project object */;
+}
